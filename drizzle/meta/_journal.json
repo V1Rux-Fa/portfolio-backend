@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1761248093595,
+      "tag": "0000_natural_iron_monger",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1761767320582,
+      "tag": "0001_fat_stick",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1762192982905,
+      "tag": "0002_nervous_blade",
+      "breakpoints": true
+    }
+  ]
+}
