@@ -22,6 +22,27 @@
       "when": 1762192982905,
       "tag": "0002_nervous_blade",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1770895046434,
+      "tag": "0003_last_tarot",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1770895728659,
+      "tag": "0004_stormy_boomer",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1770895760779,
+      "tag": "0005_gifted_darkstar",
+      "breakpoints": true
     }
   ]
 }

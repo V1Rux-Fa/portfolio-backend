@@ -2,9 +2,10 @@ import { integer, pgTable, varchar, boolean, date } from "drizzle-orm/pg-core";
 export const usersTable = pgTable("users", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   name: varchar({ length: 255 }).notNull(),
-  age: integer().notNull(),
+  lastName: varchar({ length: 255 }).notNull(),
+  address: varchar({ length: 255 }).notNull(),
   email: varchar({ length: 255 }).notNull().unique(),
-  password: varchar({ length: 255 }),
+  password: varchar({ length: 255 }).notNull(),
 });
 
 export const animesTable = pgTable("animes", {
